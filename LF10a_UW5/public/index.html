@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini-Shop UI Review</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">UW5 – Mini-Shop UI Review</p>
+          <h1>Mini-Shop Prototyp</h1>
+          <p class="intro">Testen Sie den Prototypen für Liste, Produktkarte, Detailansicht und Interaktion.</p>
+        </div>
+        <button id="theme-toggle" class="ghost-btn" type="button">Dark Mode</button>
+      </header>
+
+      <section class="toolbar">
+        <label class="search-label" for="search">Suchen:</label>
+        <input id="search" type="search" placeholder="z. B. Kopfhörer" aria-label="Produktname suchen" />
+        <div class="sort-group" role="group" aria-label="Sortierung">
+          <button id="sort-asc" type="button" aria-pressed="true">Preis ↑</button>
+          <button id="sort-desc" type="button" aria-pressed="false">Preis ↓</button>
+        </div>
+      </section>
+
+      <section class="status-bar" aria-live="polite">
+        <p id="status-text">5 Produkte gefunden.</p>
+      </section>
+
+      <section class="product-list" aria-label="Produktliste">
+        <ul id="list" class="list"></ul>
+      </section>
+
+      <div id="detail-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-panel">
+          <div class="modal-header">
+            <h2 id="modal-title">Produktdetails</h2>
+            <button id="modal-close" class="icon-btn" type="button" aria-label="Details schließen">✕</button>
+          </div>
+          <div id="modal-content" class="modal-body"></div>
+          <div class="modal-actions">
+            <button id="add-cart" type="button">In den Warenkorb</button>
+            <button id="cancel" class="ghost-btn" type="button">Abbrechen</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

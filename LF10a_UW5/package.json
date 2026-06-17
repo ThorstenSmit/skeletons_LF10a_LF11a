@@ -1,0 +1,15 @@
+{
+  "name": "mini-shop-ui-uw5",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "npx serve public -l 5173",
+    "lint": "eslint public/**/*.js",
+    "format": "prettier -w ."
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0",
+    "serve": "^14.0.0"
+  }
+}
