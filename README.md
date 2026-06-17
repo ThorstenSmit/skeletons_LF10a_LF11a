@@ -7,7 +7,6 @@ Verwendete Dateien:
 - `Teilaufgaben.md` — Sammelstelle für Teilaufgaben und ToDos
 
 Anleitung:
-1. Teilaufgaben in `Teilaufgaben.md` beachten.
-2. Unterordner nach Teilaufgabe verwenden.
+Teilaufgaben in Unterordnern beachten.
 
 Dr.-Ing. Smit, 2026
