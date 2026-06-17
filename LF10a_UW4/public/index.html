@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produktliste – Filter & Sort</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Produktliste – Filter & Sort</h1>
+      <section class="controls" aria-label="Filter und Sortierung">
+        <label for="search">Suche (Name):</label>
+        <input id="search" type="search" placeholder="Produktname eingeben" />
+        <div class="sort" role="group" aria-label="Sortieren nach Preis">
+          <button id="sort-asc" type="button" aria-pressed="true">Preis ↑</button>
+          <button id="sort-desc" type="button" aria-pressed="false">Preis ↓</button>
+        </div>
+      </section>
+
+      <ul id="list" class="list" aria-live="polite"></ul>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

@@ -1,14 +1,8 @@
 # Teilaufgaben
 
-Sammle hier alle Teilaufgaben für das Repository.
+Teilaufgaben für das Repository nach Unterrichtwoche.
 
-- [ ] Aufgabe 1: Projektstruktur prüfen
-- [ ] Aufgabe 2: Materialien hinzufügen
-- [ ] Aufgabe 3: Aufgaben/Übungsblätter anlegen
-- [ ] Aufgabe 4: CI / GitHub Actions einrichten (optional)
-- [ ] Aufgabe 5: Erste Version pushen
-
-Weitere Aufgaben bitte untereinander ergänzen.
+- [LF10a] UW4: Projektstruktur prüfen
 
 ---
-Stand: Initial
+Stand: 2026, Smit
